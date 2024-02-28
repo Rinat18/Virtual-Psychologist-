@@ -7,13 +7,14 @@
   align-items: center;
   border-radius: 10px;
   overflow: hidden;
-  width: 31%;
+  width: 80%;
+  margin-top: 10px;
 }
 
 .appcanvas{
   position: absolute;
-  top: 85px;
-  width: 550px;
+  top: 100px;
+  width: 317px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -22,6 +23,9 @@ h1{
 }
 h2{
   margin-top: 20px;
+  background-color: rgb(30, 30, 30);
+  padding: 10px;
+  border-radius: 5px;
 }
 .myapp{
   display: flex;
@@ -31,7 +35,8 @@ h2{
   align-items: center;
 }
 .videoR{
-  width: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .light {
@@ -46,5 +51,17 @@ h2{
 
 .inp{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
+}
+
+.inp div{
+  margin-top: 10px;
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
 }
